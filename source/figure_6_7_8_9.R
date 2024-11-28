@@ -1,0 +1,7 @@
+library(reticulate)
+np <- import("numpy")
+TSNE <- np$load("RES/INTERPRETABILITY/TSNE_INT.npy")
+d <- dist(scale(TSNE), method = "euclidean")
+hc <- hclust(d, method = "ward.D2")
+clusters <- cutree(hc, k = 8)
+save(clusters, file = "RES/INTERPRETABILITY/clusters.RData")
