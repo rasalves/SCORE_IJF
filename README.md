@@ -7,7 +7,7 @@ Football (also known as Soccer or Association Football), the most popular sport 
 
 ## Date of Assembly
 
-This reproducibility package was completed on **November 29, 2024**. The routines have been adapted to allow experiments to be reproduced in any computing environment, ensuring flexibility and applicability to a variety of setups.
+This reproducibility package was completed on **November 29, 2024**. The routines have been adapted to allow experiments to be reproduced in diverse computing environment, ensuring flexibility and applicability to a variety of setups.
 
 ## Author
 
